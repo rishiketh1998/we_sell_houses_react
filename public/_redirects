@@ -1,3 +1,2 @@
-/api/* https://myherokuapp.herokuapp.com/:splat  200
-
+/* http://myherokuapp.herokuapp.com/:splat 200
 /* /index.html 200
