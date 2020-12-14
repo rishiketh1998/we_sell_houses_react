@@ -57,7 +57,7 @@ const Properties = (props) => {
     const handleNext = () => {
         setPageNo(prevState => prevState + 1)
         let url = propertiesData.nextPage
-        console.log(propertiesData.nextPage)
+        url = url.substr(0,4)  + 's' + url.substr(4)
         const index = url.indexOf('api')
         url = url.slice(index - 1,url.length)
         props.setUrl(url)
@@ -68,6 +68,7 @@ const Properties = (props) => {
     const handlePrev = () => {
         setPageNo(prevState => prevState - 1)
         let url = propertiesData.previousPage
+        url = url.substr(0,4)  + 's' + url.substr(4)
         const index = url.indexOf('api')
         url = url.slice(index - 1,url.length)
         props.setUrl(url)
