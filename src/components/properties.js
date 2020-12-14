@@ -49,6 +49,7 @@ const Properties = (props) => {
       }
       if(!props.error) getProperties()
     },[props, updateOnAdd])
+    console.log(propertiesData.data)
     const properties = propertiesData.data
     /**
      * @description: updates the url in order to fetch data from next page, provided next page exists
