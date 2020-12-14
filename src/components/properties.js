@@ -49,7 +49,7 @@ const Properties = (props) => {
       }
       if(!props.error) getProperties()
     },[props, updateOnAdd])
-    const properties = propertiesData.data
+    const properties = propertiesData.hasOwnProperty(data) && propertiesData.data
     /**
      * @description: updates the url in order to fetch data from next page, provided next page exists
      */
