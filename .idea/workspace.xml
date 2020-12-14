@@ -4,6 +4,15 @@
     <list default="true" id="302d1b6a-6aa5-4068-bcf1-b1988db64afb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/_redirects" beforeDir="false" afterPath="$PROJECT_DIR$/public/_redirects" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar/signIn.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/signIn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar/signUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/signUp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/user/addProperty.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/user/addProperty.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/user/delete.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/user/delete.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/user/edit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/user/edit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/user/propertyMessages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/user/propertyMessages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/user/userProperties.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/user/userProperties.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/zoopla/zooplaProperties.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/zoopla/zooplaProperties.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +49,7 @@
       <updated>1607931019192</updated>
       <workItem from="1607931020304" duration="1004000" />
       <workItem from="1607937356532" duration="5933000" />
-      <workItem from="1607943969262" duration="12000" />
+      <workItem from="1607943969262" duration="484000" />
     </task>
     <servers />
   </component>

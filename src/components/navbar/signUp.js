@@ -160,7 +160,7 @@ const SignUp = (props) => {
         const obj = JSON.parse(JSON.stringify(userData))
         const userObj = filterUserObj(obj)
         try {
-            await axios.post('/api/v1/users', userObj)
+            await axios.post('https://breadbox-app-api.herokuapp.com/api/v1/users', userObj)
             handleReset()
             props.onHide()
             props.setDisplaySignUpSuccess(true)
