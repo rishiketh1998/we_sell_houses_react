@@ -16,8 +16,8 @@ import ZooplaProperties from "./components/zoopla/zooplaProperties";
  */
 const App = () => {
   const [ user, setUser ] = useState(null)
-  const api = '/api/v1/login'
-  const initialPropertyUrl = "/api/v1/properties?page=1&limit=5"
+  const api = 'https://we-sell-houses-backend.herokuapp.com/api/v1/login'
+  const initialPropertyUrl = "https://we-sell-houses-backend.herokuapp.com/api/v1/properties?page=1&limit=5"
   const [ propertiesUrl, setPropertiesUrl] = useState(initialPropertyUrl)
   const [ errorData, setErrorData ] = useState({})
   const [ showErrModal, setShowErrModal ] = useState(false)
