@@ -1,5 +1,5 @@
 [[redirects]]
-    from = "/*"
+    from = "/proxy/*"
     to = "https://we-sell-houses-backend.herokuapp.com/:splat"
     status = 200
     force = true
