@@ -2,50 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="302d1b6a-6aa5-4068-bcf1-b1988db64afb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/we_sell_houses_react.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.old.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/features.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/filter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/message.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navbar/header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navbar/signIn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navbar/signUp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navbar/signUpCode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navbar/signUpSuccess.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/properties.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/property.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/propertyModal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/propertyType.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/response/error.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/response/noResults.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sorting.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/user/addProperty.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/user/addPropertyContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/user/delete.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/user/edit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/user/propertyMessages.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/user/userProperties.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/zoopla/zooplaProperties.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/zoopla/zooplaProperty.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contexts/userContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useFormHook.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +39,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607931019192</updated>
-      <workItem from="1607931020304" duration="637000" />
+      <workItem from="1607931020304" duration="1004000" />
+      <workItem from="1607937356532" duration="633000" />
     </task>
     <servers />
   </component>
@@ -97,6 +57,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
