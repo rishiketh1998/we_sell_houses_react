@@ -1,6 +1,6 @@
 /* /index.html 200
 /* http://myherokuapp.herokuapp.com/:splat 200
 [[headers]]
-  for = "/:q*"
+  for = "/:*"
   [headers.values]
   Access-Control-Allow-Origin = "*"
