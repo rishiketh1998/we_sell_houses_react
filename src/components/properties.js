@@ -57,6 +57,7 @@ const Properties = (props) => {
     const handleNext = () => {
         setPageNo(prevState => prevState + 1)
         let url = propertiesData.nextPage
+        console.log(propertiesData.nextPage)
         const index = url.indexOf('api')
         url = url.slice(index - 1,url.length)
         props.setUrl(url)
