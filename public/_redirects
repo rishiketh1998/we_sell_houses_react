@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/"
-  to = "https://api.mysearch.com"
+  to = "https://we-sell-houses-backend.herokuapp.com/"
   status = 200
   force = true
   headers = {X-From = "Netlify"}
