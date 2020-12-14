@@ -32,7 +32,7 @@ const SignIn = (props) => {
     const handleSubmit = async (e) => {
         e.preventDefault()
         try {
-            const { data }  = await axios.post('/api/v1/login', userData,{withCredentials: true})
+            const { data }  = await axios.post('/proxy/api/v1/login', userData,{withCredentials: true})
             setUser(data.Data)
             setDisplayErr(false)
             handleReset(e)

@@ -37,7 +37,7 @@ const ZooplaProperties = () => {
         setLoading(true)
        const getProperties = async () => {
            try {
-               const { data } = await axios.post('/api/v1/areaProperties', {area: defaultValue} )
+               const { data } = await axios.post('/proxy/api/v1/areaProperties', {area: defaultValue} )
                setProperties(data.properties)
                setLoading(false)
                setErrorData({})
@@ -56,7 +56,7 @@ const ZooplaProperties = () => {
     const handleSearch = async () => {
         setLoading(true)
         try {
-            const { data } = await axios.post('/api/v1/areaProperties', {area: area} )
+            const { data } = await axios.post('/proxy/api/v1/areaProperties', {area: area} )
             setProperties(data.properties)
             setLoading(false)
             setErrorData({})

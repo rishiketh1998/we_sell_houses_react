@@ -33,7 +33,7 @@ const Filter = ({setUrl, url}) => {
     })
     const [propertySelect, setPropertySelect] = useState('')
     const [ priority, setPriority ] = useState(false)
-    const userProperties = url.indexOf('/api/v1/users/') !== -1
+    const userProperties = url.indexOf('/proxy/api/v1/users/') !== -1
     /**
      * @description: allows users to selects multiple features
      * @param e

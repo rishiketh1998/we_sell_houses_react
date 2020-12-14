@@ -19,7 +19,7 @@ import Error from "../response/error";
  * @constructor
  */
 const Header = () => {
-    const logoutUrl = '/api/v1/logout'
+    const logoutUrl = '/proxy/api/v1/logout'
     const { user, setUser } = useContext(UserContext)
     const [ displaySignIn, setDisplaySignIn ] = useState(false)
     const [ displaySignUpCode, setDisplaySignUpCode] = useState(false)

@@ -44,7 +44,7 @@ const Message = (props) => {
         "message": ""
     })
     const [ successMessage, setSuccessMessage ] = useState("")
-    const url = `/api/v1/properties/${props.id}/messages`
+    const url = `/proxy/api/v1/properties/${props.id}/messages`
     const [ errorData, setErrorData ] = useState({})
     const [ showErrModal, setShowErrModal ] = useState(false)
     /**

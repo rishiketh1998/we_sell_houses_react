@@ -12,8 +12,8 @@ const UserProperties = () => {
     let url = ""
     let initialPropertyUrl = ""
     if(user) {
-        url = `/api/v1/users/${user._id}/properties?page=1&limit=5`
-        initialPropertyUrl = `/api/v1/users/${user._id}/properties?page=1&limit=5`
+        url = `/proxy/api/v1/users/${user._id}/properties?page=1&limit=5`
+        initialPropertyUrl = `/proxy/api/v1/users/${user._id}/properties?page=1&limit=5`
     }
     const [ propertyUrl, setPropertyUrl ] = useState(url)
     return (

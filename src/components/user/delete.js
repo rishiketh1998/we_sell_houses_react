@@ -23,7 +23,7 @@ const Delete = (props) => {
      * @returns {Promise<void>}
      */
     const handleDelete = async (e) => {
-        const url = `/api/v1/properties/${props.property._id}`
+        const url = `/proxy/api/v1/properties/${props.property._id}`
         try {
             await axios.delete(url)
             props.setUpdate(!props.update)

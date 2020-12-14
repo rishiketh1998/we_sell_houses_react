@@ -212,7 +212,7 @@ const AddProperty = (props) => {
         if(featureName.length > 0) data.features = featureName
         data.location.postalCode =  data.location.postalCode.toUpperCase()
         try {
-            await axios.post('/api/v1/properties', data)
+            await axios.post('/proxy/api/v1/properties', data)
             props.setUpdate(!props.update)
             props.onHide()
             setErrorData({})
