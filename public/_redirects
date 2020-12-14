@@ -1,2 +1,6 @@
 /* /index.html 200
-/api/* http://myherokuapp.herokuapp.com/:splat 200
+/* http://myherokuapp.herokuapp.com/:splat 200
+[[headers]]
+  for = "*"
+  [headers.values]
+  Access-Control-Allow-Origin = "*"
