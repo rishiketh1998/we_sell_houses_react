@@ -16,8 +16,8 @@ import ZooplaProperties from "./components/zoopla/zooplaProperties";
  */
 const App = () => {
   const [ user, setUser ] = useState(null)
-  const api = 'https://breadbox-app-api.herokuapp.com/api/v1/login'
-  const initialPropertyUrl = "https://breadbox-app-api.herokuapp.com/api/v1/properties?page=1&limit=5"
+  const api = 'http://breadbox-app-api.herokuapp.com/api/v1/login'
+  const initialPropertyUrl = "http://breadbox-app-api.herokuapp.com/api/v1/properties?page=1&limit=5"
   const [ propertiesUrl, setPropertiesUrl] = useState(initialPropertyUrl)
   const [ errorData, setErrorData ] = useState({})
   const [ showErrModal, setShowErrModal ] = useState(false)
