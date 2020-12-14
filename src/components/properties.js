@@ -26,7 +26,7 @@ const Properties = (props) => {
     const [ errorData, setErrorData ] = useState({})
     const [ showErrModal, setShowErrModal ] = useState(false)
     const [ displayNoProperties, setDisplayNoProperties] = useState(false)
-    const userProperties = props.initialUrl.indexOf('https://breadbox-app-api.herokuapp.com/api/v1/users/') !== -1
+    const userProperties = props.initialUrl.indexOf('/api/v1/users/') !== -1
     /**
      * @description: each time url is updated useEffect is called to retrieve data from the updated url.
      * If not data are found it displays an alert or else if an error occurs while making the request it displays the

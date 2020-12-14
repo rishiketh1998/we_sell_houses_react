@@ -17,7 +17,7 @@ import Error from "../response/error";
  * @constructor
  */
 const PropertyMessages = (props) => {
-    const url = `https://breadbox-app-api.herokuapp.com/api/v1/properties/${props.property._id}/messages`
+    const url = `/api/v1/properties/${props.property._id}/messages`
     const [messages, setMessages] = useState([])
     const [updatedMessage, setUpdatedMessage] = useState(false)
     const [ errorData, setErrorData ] = useState({})
@@ -46,7 +46,7 @@ const PropertyMessages = (props) => {
      * @returns {Promise<void>}
      */
     const handleDelete = async (e) => {
-        const url =  `https://breadbox-app-api.herokuapp.com/api/v1/messages/${e.currentTarget.name}`
+        const url =  `/api/v1/messages/${e.currentTarget.name}`
         try {
            await axios.delete(url)
            setUpdatedMessage(!updatedMessage)

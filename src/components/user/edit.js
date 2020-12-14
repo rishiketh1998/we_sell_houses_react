@@ -221,7 +221,7 @@ const Edit = (props) => {
         if(featureName.length > 0) data.features = featureName
         data.location.postalCode =  data.location.postalCode.toUpperCase()
         try {
-            await axios.put(`https://breadbox-app-api.herokuapp.com/api/v1/properties/${props.property._id}`, data)
+            await axios.put(`/api/v1/properties/${props.property._id}`, data)
             props.onHide()
             props.setUpdate(!props.update)
             setErrorData({})
