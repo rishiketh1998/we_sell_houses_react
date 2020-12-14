@@ -49,8 +49,7 @@ const Properties = (props) => {
       }
       if(!props.error) getProperties()
     },[props, updateOnAdd])
-    console.log(propertiesData.data)
-    const properties = propertiesData.data
+
     /**
      * @description: updates the url in order to fetch data from next page, provided next page exists
      */
@@ -58,9 +57,9 @@ const Properties = (props) => {
         setPageNo(prevState => prevState + 1)
         let url = propertiesData.nextPage
         url = url.substr(0,4)  + 's' + url.substr(4)
-        console.log(url)
         const index = url.indexOf('api')
         url = url.slice(index - 1,url.length)
+        url = "/proxy" + url
         props.setUrl(url)
     }
     /**
@@ -70,11 +69,12 @@ const Properties = (props) => {
         setPageNo(prevState => prevState - 1)
         let url = propertiesData.previousPage
         url = url.substr(0,4)  + 's' + url.substr(4)
-        console.log(url)
         const index = url.indexOf('api')
         url = url.slice(index - 1,url.length)
+        url = "/proxy" + url
         props.setUrl(url)
     }
+    const properties = propertiesData.data
     return (
         <div className="row m-3">
             <Error show={showErrModal} onHide={() => setShowErrModal(false)} data={errorData}/>
