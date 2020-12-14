@@ -1,6 +1,9 @@
+[[redirects]]
+  from = "/"
+  to = "https://api.mysearch.com"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
+
 /* /index.html 200
-/* http://myherokuapp.herokuapp.com/:splat 200
-[[headers]]
-  for = "/:*"
-  [headers.values]
-  Access-Control-Allow-Origin = "*"
+
