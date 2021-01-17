@@ -180,7 +180,7 @@ const SignUp = (props) => {
         <Modal show={props.show} onHide={props.onHide} size="xl">
             <Error show={showErrModal} onHide={() => setShowErrModal(false)} data={errorData}/>
             <Modal.Header closeButton>
-                <Modal.Title className="text-primary">
+                <Modal.Title className="text-info">
                     Sign Up
                 </Modal.Title>
             </Modal.Header>

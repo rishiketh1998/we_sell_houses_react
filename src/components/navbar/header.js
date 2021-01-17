@@ -5,7 +5,6 @@ import {UserContext} from "../../contexts/userContext";
 import axios from "axios"
 import { withRouter  } from 'react-router-dom'
 import SignIn from "./signIn";
-import SignUpCode from "./signUpCode";
 import SignUp from "./signUp";
 import SignUpSuccess from "./signUpSuccess";
 import Error from "../response/error";
@@ -22,7 +21,6 @@ const Header = () => {
     const logoutUrl = '/proxy/api/v1/logout'
     const { user, setUser } = useContext(UserContext)
     const [ displaySignIn, setDisplaySignIn ] = useState(false)
-    const [ displaySignUpCode, setDisplaySignUpCode] = useState(false)
     const [ displaySignUp, setDisplaySignUp ] = useState(false)
     const [ displaySignUpSuccess, setDisplaySignUpSuccess ] = useState(false)
     const [ errorData, setErrorData ] = useState({})
@@ -76,8 +74,7 @@ const Header = () => {
                             </>
                         }
                     </Nav>
-                    <SignIn show={displaySignIn} onHide={() => setDisplaySignIn(false)} setDisplaySignUpCode={setDisplaySignUpCode}/>
-                    <SignUpCode show={displaySignUpCode} onHide={() => setDisplaySignUpCode(false)} setDisplaySignUp={setDisplaySignUp}/>
+                    <SignIn show={displaySignIn} onHide={() => setDisplaySignIn(false)} setDisplaySignUpCode={setDisplaySignUp}/>
                     <SignUp show={displaySignUp} onHide={() => setDisplaySignUp(false)} setDisplaySignUpSuccess={setDisplaySignUpSuccess}/>
                     <SignUpSuccess show={displaySignUpSuccess} onHide={() => setDisplaySignUpSuccess(false)} setDisplaySignIn={setDisplaySignIn}/>
                 </Navbar.Collapse>
