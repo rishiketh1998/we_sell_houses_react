@@ -7,7 +7,6 @@ import { UserContext } from "./contexts/userContext";
 import UserProperties from "./components/user/userProperties";
 import axios from "axios"
 import Error from "./components/response/error";
-import ZooplaProperties from "./components/zoopla/zooplaProperties";
 
 /**
  * @description: Main (Parent) Component for the Application. Calls rest of the components provided conditions are met.
@@ -60,7 +59,6 @@ const App = () => {
                         />
                     } />
                    {user && <Route path="/user/properties" exact component={UserProperties}/>}
-                   <Route path="/zoopla/Properties" exact component={ZooplaProperties}/>
                    <Route path="*" ><Redirect to="/properties"/></Route>
                </Switch>
             </UserContext.Provider>

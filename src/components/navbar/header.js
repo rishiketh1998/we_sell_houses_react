@@ -57,10 +57,6 @@ const Header = () => {
                             <i className="fas fa-building mr-2"/>
                             Properties
                         </Nav.Link>
-                        <Nav.Link as={NavLink} activeClassName="text-info font-weight-bold" to='/zoopla/Properties' className='ml-4 text-secondary' style={{fontSize:'initial'}}>
-                            <i className="fas fa-building mr-2"/>
-                            Zoopla Properties
-                        </Nav.Link>
                         {
                             !user ?
                             <Nav.Link className='ml-4 text-secondary' style={{fontSize:'initial'}} onClick={() => setDisplaySignIn(true)}>
